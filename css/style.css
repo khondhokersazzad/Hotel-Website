@@ -1,0 +1,328 @@
+         /*Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+    /* ---- Core Style ---- */
+body{
+	font-family: Segoi UI;
+	line-height: 1.5em;
+	
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+
+p{
+	margin: 10px 0; 
+} 
+
+/* ---- Utility ----*/ 
+
+
+/*utility can be use anywhere*/
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.text-primary{
+	color: #f7c08a;
+}
+
+
+.bg-dark{
+	background: #333;
+	color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+
+.lead{
+	font-size: 20px;
+}
+
+.l-heading{
+	font-size: 40px;
+}
+
+
+.btn{
+	padding: 13px 20px;
+ 	background: #333;
+ 	color : #fff;
+ 	margin-top: 20px;
+ 	display: inline-block;
+ 	cursor: pointer;
+ 	border : none;
+}
+
+.btn:hover{
+	background: #f7c08a;
+	color: #333;
+}
+
+.btn-light{
+	background: #f4f4f4;
+	color: #333;
+}
+
+.clr{
+	clear: both;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+    /* ---- Nav Bar ---- */
+
+
+ #navbar{
+ 	background: #333;
+ 	overflow: hidden;
+ 	color: #fff;
+ } 
+
+ #navbar a{
+ 	color: #fff;
+ 	font-size: 18px;
+ 	padding: 20px;
+ }  
+
+ #navbar h1{
+ 	float: left;
+ 	padding: 20px;
+ 	
+ }
+
+#navbar h1 a{
+	font-size: 24px;
+}
+
+
+#navbar ul{
+	float: right;
+}
+
+#navbar ul li{
+ 	list-style-type: none;
+ 	float: left;
+
+ }
+
+#navbar ul li a{
+ 	display: block;
+ 	padding: 20px;
+ 	text-align: center;
+
+}
+
+#navbar ul li a:hover{
+ 	color: #f7c08a;
+ 	background-color: #444;
+ }
+
+
+    /* ---- Showcase ---- */
+
+.showcase{
+ 	background: url("../img/showcase.jpg")
+ 	no-repeat center center/cover;
+
+ 	height: 500px;
+ }
+
+.showcase-content{
+ 	text-align: center;
+ 	color: #fff;
+ 	padding-top: 150px;
+
+ }
+
+.showcase-content h1{
+ 	font-size: 60px;
+ 	line-height: 1.2em;
+ }
+
+.showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+
+.showcase-content a{
+ 	padding: 13px 20px;
+ 	background: #333;
+ 	color : #fff;
+ 	margin-top: 20px;
+ 	display: inline-block;
+ 	font-size: 18px;
+
+
+ }
+
+.showcase-content a:hover{
+  	background: #f7c08a;
+  	color: #000;
+}
+
+                /*home-info section*/
+#home-info{
+  	height: 400px;
+}
+#home-info .home-info-img{
+  	background: url('../img/photo-1.jpg') no-repeat;
+  	width: 50%;
+  	min-height: 100%;
+  	float: left;
+
+}
+#home-info .home-info-content{
+  	float: right;
+  	width: 50%;
+  	height:100%;
+  	text-align: center;
+  	padding: 50px 30px;
+  	overflow: hidden;
+}
+#home-info .home-info-content p{
+	padding: 30px;
+}
+
+    /* ---- Features ---- */
+.box{
+	width: 33.33%;
+	padding: 50px;
+	float: left;
+	text-align: center;
+}
+
+.box i {
+  	margin-bottom: 10px;
+}
+
+
+    /* ---- About Info ---- */
+
+#about-info .info-right{
+	float: right;
+	width: 50%;
+	min-height: 100%;
+}
+
+
+#about-info .info-right img{
+	width: 70%;
+	border-radius: 50%;
+	margin: auto;
+	display: block;
+	padding-bottom: 30px;
+
+}
+
+#about-info .info-left{
+	width: 50%;
+	float: left;
+	
+	
+}
+
+
+
+    /* ---- Testimonials ---- */
+
+#testimonials{
+	
+	height: 100%;
+	background: url('../img/test-bg.jpg') no-repeat center center/cover;
+	padding-top: 100px;
+
+}
+
+#testimonials h1{
+	text-align: center;
+	color: #fff;
+	padding-bottom: 40px;
+	
+}
+
+#testimonials .testimonial{
+	 padding: 20px;
+	 margin-bottom: 40px;
+	 border-radius: 5px;
+}
+
+
+#testimonials .testimonial img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-right: 20px;
+	float: left;
+
+}
+
+
+    /* ----Contact Form ---- */
+
+
+#contact-form .form-group{
+	margin-bottom: 20px;
+}
+
+#contact-form label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+#contact-form textarea{
+	height: 200px;
+
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+	outline: none;
+	border-color: #f7c08a;
+}
+
+
+
+
+
+    /* ---- FOOTER ---- */
+
+#main-footer{
+	background: #444;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}    
